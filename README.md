@@ -81,8 +81,10 @@ The direct client is also available as `langchain_blockchainiq.client.fetch`.
 
 ## Proof of a paid call
 
-Live paid `/brief` settlement transaction: _pending — added here once the funded
-test run completes._
+A live paid `/brief` call ($0.01 USDC on Base) made by this integration's
+`python examples/paid_call.py` on 2026-10-28 settled in transaction
+[`0xb17f5f27bce8b6b4291a57182463286ad0b18ad3a5d1beadd305dadb7ee51acb`](https://basescan.org/tx/0xb17f5f27bce8b6b4291a57182463286ad0b18ad3a5d1beadd305dadb7ee51acb)
+(payer `0x7Dfe0d168B76267D6331859ACa5B1745759e2E01`, x402 v2 exact, `eip155:8453`).
 
 Mock tests verify SDK signing and receipt extraction without spending funds.
 
